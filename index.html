@@ -25,7 +25,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#project">Project</a>
+              <a class="nav-link" href="#project">Skill</a>
             </li>
 
             <li class="nav-item">
@@ -53,7 +53,8 @@
       </div>
       <div class="row justify-content-between text-center md-4">
         <div class="col">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, sequi repellat. Itaque, asperiores nobis optio nisi commodi assumenda fugiat animi consectetur, dicta sed, porro ipsa!</p>
+          <p>i'm highly passionate new corner in software engineering world, i'm fast leaner, 
+            and love to interest in web programer. for education, i graduated from smkn 1 kepanjen majoring in software engineering, and currently studying at Sekolah tinggi Teknik Malang majoring in informatics engineering</p>
         </div>
        
       </div>
@@ -64,17 +65,17 @@
     <!-- project -->
     <section id="project" style="background-color: #cff3e6;">
       <div class="container">
-        <div class="row text-center mb-4">
+        <div class="row text-center mb-4 ">
           <div class="col">
-            <h2>My Projects</h2>
+            <h2>My Skill</h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-md-4">
             <div class="card">
               <img src="img/1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">I understand enough html and I feel fluent in using the language</p>
               </div>
             </div>
           </div>
@@ -82,7 +83,7 @@
             <div class="card">
               <img src="img/2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">I also have a basic understanding of the php programming language</p>
               </div>
             </div>
           </div>
@@ -90,7 +91,23 @@
             <div class="card">
               <img src="img/3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Likewise for the JavaScript programming language, I understand the basics and am still in the process of developing my knowledge of the programming language</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">while learning css, I also know about the css framework, namely boostrap, I know a little about how to use and the ease of this framework</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/5.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">For databases, I'm learning about Mysql database, but it's still basic and I'm sure it will continue to grow</p>
               </div>
             </div>
           </div>
@@ -110,7 +127,7 @@
       <div class="row justify-content-center">
         <div class="col-8">
           <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
-            <strong>Terimaksih!</strong>pesan sudah dikirim!
+            <strong>Terimaksih!</strong> pesan sudah dikirim!
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
           </div>
           <form name="wpu-contact-form">
@@ -120,7 +137,7 @@
               
             </div>
             <div class="mb-3">
-              <label for="email" class="form-label">Email address</label>
+              <label for="email" class="form-label">Email</label>
               <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
             
             </div>
@@ -156,7 +173,7 @@
     
       form.addEventListener('submit', e => {
         e.preventDefault()
-        <!-- ketika tombol submit di klik -->
+       
         btnLoading.classList.toggle('d-none');
         btnKirim.classList.toggle('d-none');
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
